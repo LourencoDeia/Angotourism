@@ -444,7 +444,7 @@ position: absolute;
 \*-----------------------------------*/
 
 .hero {
-  background-image: url("/frontend/img/hero.jpg");
+  background-image: url("/Angotourism/frontend/img/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -2,13 +2,6 @@
  * #style.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
 
 /*-----------------------------------*\
  * #CUSTOM PROPERTY
@@ -161,8 +154,34 @@ body { background: var(--white); }
 
 
 /*Imagenssss*/
+/* Logotipo */
+.logotipo img {
+    width: 40px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
 
+/* Logotipo e nome */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-left: 90px;
+}
 
+.logotipo img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    display: block;
+}
+
+.logo strong {
+    color: #fff;
+    font-size: 22px;
+    white-space: nowrap;
+}
 
 
 
@@ -425,7 +444,7 @@ position: absolute;
 \*-----------------------------------*/
 
 .hero {
-  background-image: url("/img/hero.jpg");
+  background-image: url("/frontend/img/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -737,6 +756,30 @@ position: absolute;
 /*-----------------------------------*\
  * #FOOTER
 \*-----------------------------------*/
+
+/* Logotipo do footer */
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
+
+.footer-logo .logotipo img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    display: block;
+}
+
+.footer-logo strong {
+    color: #fff;
+    font-size: 22px;
+    white-space: nowrap;
+}
 
 .footer-top {
   background: var(--gunmetal);
